@@ -1,0 +1,17 @@
+{
+  "name": "ai-synthesis-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A powerful web application that analyzes and synthesizes responses from multiple AI language models (LLMs) into a comprehensive, superior analysis. This tool leverages Claude 4.0 Sonnet to evaluate, compare, and combine insights from ChatGPT, Gemini, Perplexity, CoPilot, DeepSeek, and other AI systems.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
